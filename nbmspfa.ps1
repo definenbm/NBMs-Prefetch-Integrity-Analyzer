@@ -14,6 +14,7 @@ Write-Host @"
 
 Write-Host ""
 Write-Host "  prefetch integ analyzer made by nbm  " -ForegroundColor White -NoNewline
+Write-Host ""
 
 function Test-Admin {
     $u = [Security.Principal.WindowsIdentity]::GetCurrent()
